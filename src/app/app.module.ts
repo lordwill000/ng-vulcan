@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser'
 import { NgModule } from '@angular/core'
 import { RouterModule, Routes } from '@angular/router'
+import { ParticlesModule } from 'angular-particle'
 
 import { AppComponent } from './app.component'
 import { AboutComponent } from './components/about/about.component'
@@ -29,7 +30,7 @@ const routes: Routes = [
     PortfolioComponent,
     ContactComponent
   ],
-  imports: [BrowserModule, RouterModule.forRoot(routes)],
+  imports: [BrowserModule, RouterModule.forRoot(routes), ParticlesModule],
   providers: [],
   bootstrap: [AppComponent]
 })

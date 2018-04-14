@@ -1,0 +1,55 @@
+.section-about
+  align-items: center
+  background: #2f2f2f
+  display: flex
+  height: 100vh
+  justify-content: center
+  position: relative
+  width: 100%
+  z-index: 1
+  .social-col
+    background: cornflowerblue
+    position: absolute
+  .intro-col
+    font-family: 'Roboto', sans-serif    
+    text-align: center
+    margin: 0 auto
+    max-width: 600px
+    & > h1
+      color: #cacaca
+      font-family: 'Do Hyeon', sans-serif    
+      font-size: 1.8em
+      line-height: 1.7em
+    & > h5 
+      color: #8a8a8a
+      font-size: 1.1em
+      font-weight: 300
+      line-height: 1.8em
+      text-align: center
+      .fancy
+        font-weight: 500
+    & > a
+      &.dl-resume
+        border: 1px solid #cacaca
+        color: #8a8a8a
+        display: inline-block
+        padding: 10px 20px
+        text-align: center
+        text-decoration: none
+        transition: all 0.3s ease
+        &:hover
+          background-color: #cacaca
+          color: #0a0a0a
+
+  .nav-col
+    background: gold
+    position: absolute
+  .particles
+    bottom: 0
+    height: 100%  
+    left: 0
+    position: absolute
+    right: 0
+    top: 0    
+    width: 100%    
+    z-index: -1    
