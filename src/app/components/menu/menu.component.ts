@@ -17,7 +17,7 @@ export class MenuComponent implements OnInit {
     Array.from(menuItems).forEach((e, i) => {
       setTimeout(() => {
         e.classList.toggle('fade-in-left')
-      }, i * 250 + 300)
+      }, i * 250 + 400)
     })
   }
 }

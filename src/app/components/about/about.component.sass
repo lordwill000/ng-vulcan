@@ -14,25 +14,37 @@
     margin: 0 auto
     max-width: 620px
     & > h1
+      animation: fade-in-bottom 0.3s ease-out forwards
+      animation-delay: 0.1s
       color: #cacaca
       font-family: 'Do Hyeon', sans-serif    
       font-size: 1.8em
       line-height: 1.7em
+      opacity: 0
+      position: relative
     & > h5 
+      animation: fade-in-bottom 0.3s ease-out forwards
+      animation-delay: 0.2s
       color: #8a8a8a
       font-size: 1.1em
       font-weight: 300
       line-height: 1.8em
+      opacity: 0      
       padding: 0 10px
+      position: relative
       text-align: center
       .fancy
         font-weight: 500
     & > a
       &.dl-resume
+        animation: fade-in-bottom 0.3s ease-out forwards     
+        animation-delay: 0.5s   
         border: 1px solid #cacaca
         color: #8a8a8a
         display: inline-block
+        opacity: 0
         padding: 10px 20px
+        position: relative
         text-align: center
         text-decoration: none
         transition: all 0.3s ease
@@ -40,7 +52,11 @@
           background-color: #cacaca
           color: #0a0a0a
   .social-wrapper
+    animation: fade-in-bottom 0.3s ease-out forwards 
+    animation-delay: 0.8s   
     display: flex
+    opacity: 0
+    position: relative
     -webkit-margin-before: 1.67em
     -webkit-margin-after: 1.67em
     -webkit-margin-start: 0px
@@ -61,12 +77,29 @@
       &:hover
         bottom: 5px
   .particles
+    animation: fade-in 0.5s ease-in-out forwards
+    animation-delay: 1.6s
     bottom: 0
     height: 100%  
     left: 0
+    opacity: 0
     position: absolute
     right: 0
     top: 0    
     width: 100%    
     z-index: -1
     
+@keyframes fade-in-bottom
+  from
+    bottom: -10px    
+    opacity: 0
+  to
+    bottom: 0 
+    opacity: 1
+
+
+@keyframes fade-in
+  from
+    opacity: 0
+  to
+    opacity: 1

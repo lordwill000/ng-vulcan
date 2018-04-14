@@ -6,11 +6,13 @@ import { Component, OnInit } from '@angular/core'
   styleUrls: ['./about.component.sass']
 })
 export class AboutComponent implements OnInit {
-  constructor() {}
-
   myParams: object = {}
   width: number = 100
   height: number = 100
+  hasLoaded: boolean = false
+  constructor() {
+    this.hasLoaded = true
+  }
 
   ngOnInit() {
     this.myParams = {
@@ -23,7 +25,7 @@ export class AboutComponent implements OnInit {
           }
         },
         color: {
-          value: '#ffffff'
+          value: '#cacaca'
         },
         shape: {
           type: 'circle',
@@ -41,7 +43,7 @@ export class AboutComponent implements OnInit {
           }
         },
         opacity: {
-          value: 0.3,
+          value: 0.2,
           random: false,
           anim: {
             enable: false,
@@ -55,7 +57,7 @@ export class AboutComponent implements OnInit {
           random: true,
           anim: {
             enable: false,
-            speed: 40,
+            speed: 20,
             size_min: 0.1,
             sync: false
           }
@@ -63,14 +65,14 @@ export class AboutComponent implements OnInit {
         line_linked: {
           enable: true,
           distance: 150,
-          color: '#ffffff',
-          opacity: 0.3,
+          color: '#cacaca',
+          opacity: 0.2,
           width: 1
         },
         move: {
           enable: true,
           bounce: true,
-          speed: 6,
+          speed: 4,
           direction: 'none',
           random: false,
           straight: false,
@@ -104,14 +106,14 @@ export class AboutComponent implements OnInit {
           grab: {
             distance: 300,
             line_linked: {
-              opacity: 1
+              opacity: 0.5
             }
           },
           bubble: {
             distance: 400,
             size: 40,
             duration: 2,
-            opacity: 8,
+            opacity: 5,
             speed: 3
           },
           repulse: {
