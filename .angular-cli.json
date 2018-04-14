@@ -7,10 +7,7 @@
     {
       "root": "src",
       "outDir": "dist",
-      "assets": [
-        "assets",
-        "favicon.ico"
-      ],
+      "assets": ["assets", "favicon.ico"],
       "index": "index.html",
       "main": "main.ts",
       "polyfills": "polyfills.ts",
@@ -20,7 +17,8 @@
       "prefix": "app",
       "styles": [
         "styles.sass",
-        "../node_modules/normalize.css/normalize.css"
+        "../node_modules/normalize.css/normalize.css",
+        "https://fonts.googleapis.com/css?family=Do+Hyeon|Roboto:300,400,500,700,900"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
