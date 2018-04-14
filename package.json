@@ -2,6 +2,7 @@
   "name": "ng-vulcan",
   "version": "0.0.0",
   "license": "MIT",
+  "repository": "https://github.com/lordcndy000/ng-vulcan.git",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
