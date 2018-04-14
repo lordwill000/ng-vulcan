@@ -32,7 +32,7 @@ export class AboutComponent implements OnInit {
             color: '#000000'
           },
           polygon: {
-            nb_sides: 5
+            nb_sides: 7
           },
           image: {
             src: 'img/github.svg',
@@ -41,7 +41,7 @@ export class AboutComponent implements OnInit {
           }
         },
         opacity: {
-          value: 0.5,
+          value: 0.3,
           random: false,
           anim: {
             enable: false,
@@ -64,7 +64,7 @@ export class AboutComponent implements OnInit {
           enable: true,
           distance: 150,
           color: '#ffffff',
-          opacity: 0.4,
+          opacity: 0.3,
           width: 1
         },
         move: {
@@ -93,7 +93,12 @@ export class AboutComponent implements OnInit {
             enable: true,
             mode: 'push'
           },
-          resize: true
+          resize: true,
+          onresize: {
+            enable: true,
+            density_auto: true,
+            density_area: 400
+          }
         },
         modes: {
           grab: {

@@ -3,18 +3,16 @@
   background: #2f2f2f
   display: flex
   height: 100vh
+  flex-direction: column
   justify-content: center
   position: relative
   width: 100%
   z-index: 1
-  .social-col
-    background: cornflowerblue
-    position: absolute
-  .intro-col
+  .intro-wrapper
     font-family: 'Roboto', sans-serif    
     text-align: center
     margin: 0 auto
-    max-width: 600px
+    max-width: 620px
     & > h1
       color: #cacaca
       font-family: 'Do Hyeon', sans-serif    
@@ -25,6 +23,7 @@
       font-size: 1.1em
       font-weight: 300
       line-height: 1.8em
+      padding: 0 10px
       text-align: center
       .fancy
         font-weight: 500
@@ -40,10 +39,27 @@
         &:hover
           background-color: #cacaca
           color: #0a0a0a
-
-  .nav-col
-    background: gold
-    position: absolute
+  .social-wrapper
+    display: flex
+    -webkit-margin-before: 1.67em
+    -webkit-margin-after: 1.67em
+    -webkit-margin-start: 0px
+    -webkit-margin-end: 0px
+    a
+      &.social-link
+        bottom: 0
+        display: block
+        margin: 0 8px
+        position: relative
+        transition: all 0.2s ease-out
+        width: 30px
+        svg
+          display: block
+          height: 20px
+          margin: 0 auto
+          width: 20px  
+      &:hover
+        bottom: 5px
   .particles
     bottom: 0
     height: 100%  
@@ -52,4 +68,5 @@
     right: 0
     top: 0    
     width: 100%    
-    z-index: -1    
+    z-index: -1
+    
