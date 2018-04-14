@@ -6,7 +6,8 @@ import { ParticlesModule } from 'angular-particle'
 import { AppComponent } from './app.component'
 import { AboutComponent } from './components/about/about.component'
 import { PortfolioComponent } from './components/portfolio/portfolio.component'
-import { ContactComponent } from './components/contact/contact.component'
+import { ContactComponent } from './components/contact/contact.component';
+import { MenuComponent } from './components/menu/menu.component'
 
 const routes: Routes = [
   {
@@ -28,7 +29,8 @@ const routes: Routes = [
     AppComponent,
     AboutComponent,
     PortfolioComponent,
-    ContactComponent
+    ContactComponent,
+    MenuComponent
   ],
   imports: [BrowserModule, RouterModule.forRoot(routes), ParticlesModule],
   providers: [],
