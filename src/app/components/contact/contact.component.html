@@ -1,5 +1,23 @@
 <div *ngIf="hasLoaded; else loading">
-  <section class="contact-section"></section>
+  <app-menu></app-menu>
+  <section class="contact-section">
+    <h1>get in touch.</h1>
+    <h3>Wanna collab on a project? Talk about something? Or just want to wave hello? Just fill up the form below or send an email
+      to
+      <span class="fancy">lordwill.mabalot@gmail.com</span>.
+    </h3>
+    <form>
+      <input type="text" class="name-input">
+      <textarea id="" cols="30" rows="10" class="msg-input"></textarea>
+      <button type="submit" class="btn-submit">Submit your message</button>
+    </form>
+    <div class="social-wrapper">
+      <h3>Let's get social</h3>
+
+    </div>
+
+
+  </section>
 </div>
 <ng-template #loading>
   <div class="loader-wrapper">
