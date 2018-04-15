@@ -1,6 +1,13 @@
+$roboto: 'Roboto', sans-serif
+$dohyeon: 'Do Hyeon', sans-serif
+$background: #2f2f2f
+$colorHead: #cacaca
+$colorText: #8a8a8a
+$colorTextHover: #0a0a0a
+
 .section-about
   align-items: center
-  background: #2f2f2f
+  background: $background
   display: flex
   height: 100vh
   flex-direction: column
@@ -9,15 +16,15 @@
   width: 100%
   z-index: 1
   .intro-wrapper
-    font-family: 'Roboto', sans-serif    
+    font-family: $roboto    
     text-align: center
     margin: 0 auto
     max-width: 620px
     & > h1
       animation: fade-in-bottom 0.3s ease-out forwards
       animation-delay: 0.1s
-      color: #cacaca
-      font-family: 'Do Hyeon', sans-serif    
+      color: $colorHead
+      font-family: $dohyeon    
       font-size: 1.8em
       line-height: 1.7em
       opacity: 0
@@ -25,7 +32,7 @@
     & > h5 
       animation: fade-in-bottom 0.3s ease-out forwards
       animation-delay: 0.2s
-      color: #8a8a8a
+      color: $colorText
       font-size: 1.1em
       font-weight: 300
       line-height: 1.8em
@@ -39,8 +46,8 @@
       &.dl-resume
         animation: fade-in-bottom 0.3s ease-out forwards     
         animation-delay: 0.5s   
-        border: 1px solid #cacaca
-        color: #8a8a8a
+        border: 1px solid $colorHead
+        color: $colorText
         display: inline-block
         opacity: 0
         padding: 10px 20px
@@ -49,8 +56,8 @@
         text-decoration: none
         transition: all 0.3s ease
         &:hover
-          background-color: #cacaca
-          color: #0a0a0a
+          background-color: $colorHead
+          color: $colorTextHover
   .social-wrapper
     animation: fade-in-bottom 0.3s ease-out forwards 
     animation-delay: 0.8s   

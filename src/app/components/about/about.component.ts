@@ -25,7 +25,7 @@ export class AboutComponent implements OnInit {
           }
         },
         color: {
-          value: '#cacaca'
+          value: '$colorHead'
         },
         shape: {
           type: 'circle',
@@ -65,7 +65,7 @@ export class AboutComponent implements OnInit {
         line_linked: {
           enable: true,
           distance: 150,
-          color: '#cacaca',
+          color: '$colorHead',
           opacity: 0.2,
           width: 1
         },
