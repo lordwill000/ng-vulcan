@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core'
+import { AppService } from '../../providers/app.service'
 
 @Component({
   selector: 'app-about',
@@ -9,8 +10,9 @@ export class AboutComponent implements OnInit {
   myParams: object = {}
   width: number = 100
   height: number = 100
-  hasLoaded: boolean = false
-  constructor() {}
+  socialData: any
+
+  constructor(private appService: AppService) {}
 
   ngOnInit() {
     this.myParams = {
@@ -135,7 +137,13 @@ export class AboutComponent implements OnInit {
         background_size: 'cover'
       }
     }
-    this.hasLoaded = true
-    
+
+    this.appService.fetchData('socials').subscribe(
+      data => {
+        this.socialData = data
+        console.log(this.socialData)
+      },
+      error => console.log(error)
+    )
   }
 }

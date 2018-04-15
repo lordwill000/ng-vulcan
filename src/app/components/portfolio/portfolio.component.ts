@@ -11,7 +11,7 @@ export class PortfolioComponent implements OnInit {
   constructor(private appService: AppService) {}
 
   ngOnInit() {
-    this.appService.fetchPortfolio().subscribe(
+    this.appService.fetchData('portfolio').subscribe(
       data => {
         this.portfolioData = data
       },

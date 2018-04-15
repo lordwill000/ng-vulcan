@@ -6,8 +6,8 @@ import { Observable } from 'rxjs/Observable'
 export class AppService {
   constructor(private httpClient: HttpClient) {}
 
-  public fetchPortfolio(): Observable<any> {
-    const apiUrl = 'api/portfolio.json'
+  public fetchData(endpoint): Observable<any> {
+    const apiUrl = `api/${endpoint}.json`
     return this.httpClient.get(apiUrl)
   }
 }
