@@ -10,9 +10,7 @@ export class AboutComponent implements OnInit {
   width: number = 100
   height: number = 100
   hasLoaded: boolean = false
-  constructor() {
-    this.hasLoaded = true
-  }
+  constructor() {}
 
   ngOnInit() {
     this.myParams = {
@@ -137,5 +135,7 @@ export class AboutComponent implements OnInit {
         background_size: 'cover'
       }
     }
+    this.hasLoaded = true
+    
   }
 }
