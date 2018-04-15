@@ -5,6 +5,10 @@ $colorHead: #cacaca
 $colorText: #8a8a8a
 $colorTextHover: #0a0a0a
 
+$medium: 991.98px
+$small: 767.98px
+$xsmall: 575.98px
+
 .section-about
   align-items: center
   background: $background
@@ -305,3 +309,14 @@ $colorTextHover: #0a0a0a
   100% 
     transform: scale(1, 1)
   
+
+@media (max-width: $medium)
+  .section-about
+    .particles
+      display: none
+
+@media (max-width: $xsmall)
+  .section-about
+    .intro-wrapper
+      max-width: 520px
+      padding: 0 15px
