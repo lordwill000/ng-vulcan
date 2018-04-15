@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "company": "Dottystyle Creative",
+    "client": "The Brand Pool",
+    "project-name": "The Brand Pool Website",
+    "tags": ["wordpress", "animations", "blog"],
+    "thumb": "./assets/portfolio-thumb",
+    "thumb-overlay": "./assets/portfolio-thumb",
+    "url": "https://thebrandpool.com.au/",
+    "wip": false
+  },
+  {
+    "id": 2,
+    "company": "Dottystyle Creative",
+    "client": "The Brand Pool",
+    "project_name": "Soil CRC",
+    "tags": ["wordpress", "animations", "blog"],
+    "thumb": "./assets/portfolio-thumb",
+    "thumb-overlay": "./assets/portfolio-thumb",
+    "url": "http://www.soilcrc.com.au/",
+    "wip": false
+  },
+  {
+    "id": 3,
+    "company": "Dottystyle Creative",
+    "client": "The Economist",
+    "project_name": "Small Business Preparedness Tool",
+    "tags": [
+      "sass",
+      "javascript",
+      "webpack",
+      "babel",
+      "animations",
+      "front-end"
+    ],
+    "thumb": "./assets/portfolio-thumb",
+    "thumb-overlay": "./assets/portfolio-thumb",
+    "url": "http://economist-sbp.dottylabs.com/",
+    "wip": true
+  },
+  {
+    "id": 4,
+    "company": "Dottystyle Creative",
+    "client": "The Economist",
+    "project_name": "Japan Cabinet Hub",
+    "tags": ["wordpress", "blog", "hub"],
+    "thumb": "./assets/portfolio-thumb",
+    "thumb-overlay": "./assets/portfolio-thumb",
+    "url": "http://economist-japan-cabinet-hub.dottylabs.com/",
+    "wip": true
+  },
+  {
+    "id": 5,
+    "company": "Dottystyle Creative",
+    "client": "Sponge Agency",
+    "project_name": "Apra Graduates Career",
+    "tags": ["wordpress", "animations"],
+    "thumb": "./assets/portfolio-thumb",
+    "thumb-overlay": "./assets/portfolio-thumb",
+    "url": "http://apragraduatecareers.com.au/",
+    "wip": false
+  },
+  {
+    "id": 6,
+    "company": "Dottystyle Creative",
+    "client": "The Economist",
+    "project_name": "Economist Marketing Site Japan",
+    "tags": ["wordpress", "svg", "animations", "multi-language", "multi-site"],
+    "thumb": "./assets/portfolio-thumb",
+    "thumb-overlay": "./assets/portfolio-thumb",
+    "url": "http://en.economistgroup.jp/",
+    "wip": false
+  },
+  {
+    "id": 7,
+    "company": "Dottystyle Creative",
+    "client": "The Economist",
+    "project_name": "Telstra",
+    "tags": ["wordpress", "animations", "hub"],
+    "thumb": "./assets/portfolio-thumb",
+    "thumb-overlay": "./assets/portfolio-thumb",
+    "url": "http://connectedfuture.economist.com/",
+    "wip": false
+  },
+  {
+    "id": 8,
+    "company": "Personal",
+    "client": "",
+    "project_name": "Cronus",
+    "tags": ["angular 4", "firebase", "firestore", "webapp", "material"],
+    "thumb": "./assets/portfolio-thumb",
+    "thumb-overlay": "./assets/portfolio-thumb",
+    "url": "https://cronus-c5548.firebaseapp.com//",
+    "wip": true
+  }
+]
