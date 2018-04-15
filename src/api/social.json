@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "social": "Facebook",
+    "about_url": "assets/social-facebook.svg",
+    "contact_url": "assets/contact-facebook.svg",
+    "link": "https://www.facebook.com/lordcndy000"
+  },
+  {
+    "id": 2,
+    "social": "Twitter",
+    "about_url": "assets/social-twitter.svg",
+    "contact_url": "assets/contact-twitter.svg",
+    "link": "https://www.twitter.com/lordcndy000"
+  },
+  {
+    "id": 3,
+    "social": "LinkedIn",
+    "about_url": "assets/social-linkedin.svg",
+    "contact_url": "assets/contact-linkedin.svg",
+    "link": "https://www.facebook.com/lordcndy000"
+  },
+  {
+    "id": 4,
+    "social": "Github",
+    "about_url": "assets/contact-github.svg",
+    "contact_url": "assets/contact-github.svg",
+    "link": "https://github.com/lordcndy000"
+  }
+]
