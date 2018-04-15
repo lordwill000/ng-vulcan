@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core'
 
 @Component({
   selector: 'app-contact',
@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.sass']
 })
 export class ContactComponent implements OnInit {
-
-  constructor() { }
+  hasLoaded: boolean = false
+  constructor() {}
 
   ngOnInit() {
+    this.hasLoaded = true
   }
-
 }

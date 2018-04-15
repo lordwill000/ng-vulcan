@@ -1,2 +1,15 @@
-<app-menu></app-menu>
-<section class="contact-section"></section>
+<div *ngIf="hasLoaded; else loading">
+  <section class="contact-section"></section>
+</div>
+<ng-template #loading>
+  <div class="loader-wrapper">
+    <div class="loader">
+      <div class="loader__bar"></div>
+      <div class="loader__bar"></div>
+      <div class="loader__bar"></div>
+      <div class="loader__bar"></div>
+      <div class="loader__bar"></div>
+      <div class="loader__ball"></div>
+    </div>
+  </div>
+</ng-template>
