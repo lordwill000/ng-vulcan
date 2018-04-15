@@ -3,8 +3,10 @@
     "id": 1,
     "company": "Dottystyle Creative",
     "client": "The Brand Pool",
+    "description":
+      "A website for The Brand Pool, first specialist brand agency in Newcastle. Made using Visual Composer in Wordpress.",
     "project_name": "The Brand Pool Website",
-    "tags": ["wordpress", "animations", "blog"],
+    "tags": ["wordpress", "animations", "blog", "seo"],
     "thumb": "assets/portfolio-thumb/tbp-thumb.jpg",
     "thumb_overlay": "assets/portfolio-thumb/tbp-thumb-overlay.jpg",
     "url": "https://thebrandpool.com.au/",
@@ -14,8 +16,10 @@
     "id": 2,
     "company": "Dottystyle Creative",
     "client": "The Brand Pool",
+    "description":
+      "Another Wordpress site built using Visual Composer. One of the features of the site is that it allows user to register for an account to accesss a member-only page.",
     "project_name": "Soil CRC",
-    "tags": ["wordpress", "animations", "blog"],
+    "tags": ["wordpress", "animations", "seo"],
     "thumb": "assets/portfolio-thumb/soil-thumb.jpg",
     "thumb_overlay": "assets/portfolio-thumb/soil-thumb-overlay.jpg",
     "url": "http://www.soilcrc.com.au/",
@@ -25,6 +29,8 @@
     "id": 3,
     "company": "Dottystyle Creative",
     "client": "The Economist",
+    "description":
+      "A single page web-app for small businesses. Built using ES6.",
     "project_name": "Business Preparedness Tool",
     "tags": [
       "sass",
@@ -43,6 +49,7 @@
     "id": 4,
     "company": "Dottystyle Creative",
     "client": "The Economist",
+    "description": "A hub for The Economist. Built using Wordpress.",
     "project_name": "Japan Cabinet Hub",
     "tags": ["wordpress", "blog", "hub"],
     "thumb": "assets/portfolio-thumb/jph-thumb.jpg",
@@ -54,6 +61,8 @@
     "id": 5,
     "company": "Dottystyle Creative",
     "client": "Sponge Agency",
+    "description":
+      "Another site built using Wordpress. A site for APRA graduates.",
     "project_name": "Apra Graduates Career",
     "tags": ["wordpress", "animations"],
     "thumb": "assets/portfolio-thumb/apra-thumb.jpg",
@@ -65,6 +74,8 @@
     "id": 6,
     "company": "Dottystyle Creative",
     "client": "The Economist",
+    "description":
+      "A multi-site and multi-language site built using Wordpress. Features English and Japanese language.",
     "project_name": "Economist Marketing Site Japan",
     "tags": ["wordpress", "svg", "animations", "multi-language", "multi-site"],
     "thumb": "assets/portfolio-thumb/ems-thumb.jpg",
@@ -76,6 +87,8 @@
     "id": 7,
     "company": "Dottystyle Creative",
     "client": "The Economist",
+    "description":
+      "One of the most complicated projects I've been involved with. This is basically a website, within a website.",
     "project_name": "Telstra",
     "tags": ["wordpress", "animations", "hub"],
     "thumb": "assets/portfolio-thumb/telstra-thumb.jpg",
@@ -87,6 +100,8 @@
     "id": 8,
     "company": "Personal",
     "client": "",
+    "description":
+      "An Angular-Firebase dashboard app that I'm building during my free time. The purpose of this is like a to-do app but with additional features like, emailing, weather reporter, and etc.",
     "project_name": "Cronus",
     "tags": ["angular 4", "firebase", "firestore", "webapp", "material"],
     "thumb": "assets/portfolio-thumb/cronus-thumb.jpg",

@@ -1,38 +1,61 @@
-<app-menu></app-menu>
-<section class="portfolio-section">
-  <div class="limit">
-    <h2>my works.</h2>
-    <h3 class="head">In less than a year of industry experience, I've developed awe-inspiring Wordpress sites for various clients of my current
-      company. During my free time, I play around with modern frameworks like Angular and React.</h3>
-    <p class="disclaimer">
-      *Some websites presented in this portfolio are not my own but owned by the company and/or the client indicated, however I
-      alone or involved (in a team) in development. </p>
-    <div class="portfolio-wrapper">
-      <div class="porfolio-single" *ngFor="let portfolio of portfolioData">
-        <div class="proj-name-wrapper">
-          <div class="fancy-btns">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <p class="project-name">{{portfolio.project_name}}</p>
-        </div>
-        <img src="{{portfolio.thumb}}" class="thumb">
-        <div class="thumb-overlay-wrapper">
-          <img src="{{portfolio.thumb_overlay}}" class="thumb-overlay-img">
-          <div class="thumb-overlay">
-            <div class="tags-wrapper">
-              <span class="tag" *ngFor="let tag of portfolio.tags">{{tag}}</span>
-            </div>
-            <a class="view-btn" target="_blank" href="{{portfolio.url}}">view site</a>
+<div *ngIf="portfolioData?.length > 0; else loading">
+  <app-menu></app-menu>
+  <section class="portfolio-section">
+    <div class="limit">
+      <h2>my works.</h2>
+      <h3 class="head">In less than a year of industry experience, I've developed awe-inspiring Wordpress sites for various clients of my
+        current company. During my free time, I play around with modern frameworks like Angular and React.</h3>
+      <p class="disclaimer">
+        *Some websites presented in this portfolio are not my own but owned by the company and/or the client indicated, however I
+        alone or involved (in a team) in development. </p>
 
+      <div class="portfolio-wrapper">
+        <div class="porfolio-single" *ngFor="let portfolio of portfolioData">
+          <div class="proj-name-wrapper">
+            <div class="fancy-btns">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <p class="project-name">{{portfolio.project_name}}</p>
           </div>
-          <!-- <div *ngIf="portfolio.wip">
+          <img src="{{portfolio.thumb}}" class="thumb">
+          <div class="thumb-overlay-wrapper">
+            <img src="{{portfolio.thumb_overlay}}" class="thumb-overlay-img">
+            <div class="thumb-overlay">
+              <p class="description">{{portfolio.description}}</p>
+              <p class="label">Company:
+                <span>{{portfolio.company}}</span>
+              </p>
+              <p class="label">Client:
+                <span>{{portfolio.client}}</span>
+              </p>
+
+              <div class="tags-wrapper">
+                <span class="tag" *ngFor="let tag of portfolio.tags">{{tag}}</span>
+              </div>
+              <a class="view-btn" target="_blank" href="{{portfolio.url}}">view site</a>
+            </div>
+            <!-- <div *ngIf="portfolio.wip">
             <img src="assets/under-construction.svg" alt="">
           </div> -->
 
+          </div>
         </div>
       </div>
+
+    </div>
+  </section>
+</div>
+<ng-template #loading>
+  <div class="loader-wrapper">
+    <div class="loader">
+      <div class="loader__bar"></div>
+      <div class="loader__bar"></div>
+      <div class="loader__bar"></div>
+      <div class="loader__bar"></div>
+      <div class="loader__bar"></div>
+      <div class="loader__ball"></div>
     </div>
   </div>
-</section>
+</ng-template>
