@@ -4,6 +4,7 @@ $dohyeon: 'Do Hyeon', sans-serif
 $background: #2f2f2f
 $colorHead: #cacaca
 $colorText: #8a8a8a
+$colorTextLt: #fafafa 
 $colorTextHover: #0a0a0a
 
 .portfolio-section
@@ -12,5 +13,134 @@ $colorTextHover: #0a0a0a
   .limit
     margin: 0 auto
     max-width: 1100px
+    padding: 80px 20px 30px
     & > h2
-      font-family: serif
+      color: $colorHead
+      font-family: $dohyeon
+      font-size: 3em
+      margin-bottom: 20px
+    & > h3
+      color: $colorText
+      font-family: $roboto
+      font-size: 1em
+      font-weight: 300
+      line-height: 1.8em
+    & > .disclaimer
+      color: $colorText
+      font-family: $roboto
+      font-size: 0.8em
+      font-weight: 300
+    & > .portfolio-wrapper
+      align-self: center
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+      margin-top: 30px
+      .porfolio-single
+        border-bottom-left-radius: 5px
+        border-bottom-right-radius: 5px
+        margin-bottom: 20px
+        overflow: hidden        
+        position: relative
+        width: 49%
+        &:hover
+          .thumb-overlay-wrapper
+            opacity: 1
+            top: 0
+        & > .proj-name-wrapper
+          align-items: center
+          background: $colorTextLt
+          border-top-left-radius: 5px
+          border-top-right-radius: 5px
+          display: flex
+          height: 30px
+          position: relative
+          z-index: 9          
+          .fancy-btns
+            align-items: center
+            display: flex
+            height: 100%
+            left: 5px
+            position: absolute
+            span
+              border-radius: 50%
+              display: block
+              height: 11px
+              margin-right: 5px
+              width: 11px
+              &:first-child
+                background: #ff5f57
+              &:nth-child(2)
+                background-color: #ffbd2e
+              &:last-child
+                background-color: #28ca41
+                margin-right: 0
+          .project-name
+            color: $colorTextHover
+            font-family: $roboto
+            font-size: 10px
+            font-weight: 600
+            letter-spacing: 0.5px
+            text-align: center
+            text-transform: uppercase
+            position: relative
+            width: 100%
+        .thumb
+          display: block
+          max-width: 100%
+        .thumb-overlay-wrapper
+          align-items: center          
+          border-radius: 5px
+          display: flex
+          flex-direction: column
+          height: 100%       
+          left: 0          
+          justify-content: center   
+          opacity: 0
+          padding-top: 30px
+          position: absolute
+          top: -100%
+          transition: all 0.2s ease-in-out
+          width: 100%
+          z-index: 8
+          .thumb-overlay-img
+            display: block
+            max-width: 100%
+          .thumb-overlay
+            align-items: center
+            background: rgba(0,0,0,0.8)
+            display: flex
+            height: 100%
+            flex-direction: column
+            justify-content: center 
+            position: absolute
+            width: 100%
+            .tags-wrapper
+              margin: 0 auto
+              max-width: 60%
+              text-align: center
+              span
+                background: #717070
+                border-radius: 5px
+                color: $colorTextLt        
+                display: inline-block
+                font-family: $dohyeon
+                font-size: 0.9em
+                letter-spacing: 1px
+                padding: 10px
+                margin-right: 5px
+                margin-top: 10px
+            .view-btn
+              background: #717070
+              border-radius: 5px
+              color: $colorTextLt        
+              display: block
+              font-family: $dohyeon
+              font-size: 0.8em
+              letter-spacing: 1px
+              padding: 10px
+              margin-top: 15px
+              text-decoration: none
+
+            
+      
