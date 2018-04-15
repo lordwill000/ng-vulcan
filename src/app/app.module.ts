@@ -9,6 +9,7 @@ import { AboutComponent } from './components/about/about.component'
 import { PortfolioComponent } from './components/portfolio/portfolio.component'
 import { ContactComponent } from './components/contact/contact.component'
 import { MenuComponent } from './components/menu/menu.component'
+import { AppService } from './providers/app.service'
 
 const routes: Routes = [
   {
@@ -42,7 +43,7 @@ const routes: Routes = [
     ParticlesModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [AppService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
