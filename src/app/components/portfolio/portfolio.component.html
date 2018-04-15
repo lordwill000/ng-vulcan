@@ -2,7 +2,7 @@
   <app-menu></app-menu>
   <section class="portfolio-section">
     <div class="limit">
-      <h2>my works.</h2>
+      <h1>my works.</h1>
       <h3 class="head">In less than a year of industry experience, I've developed awe-inspiring Wordpress sites for various clients of my
         current company. During my free time, I play around with modern frameworks like Angular and React.</h3>
       <p class="disclaimer">
@@ -35,11 +35,11 @@
                 <span class="tag " *ngFor="let tag of portfolio.tags ">{{tag}}</span>
               </div>
               <a class="view-btn " target="_blank " href="{{portfolio.url}} ">view site</a>
+              <div *ngIf="portfolio.wip" class="wip-wrapper">
+                <img src="assets/under-construction.svg" class="under=construction">
+                <span>Work in progress</span>
+              </div>
             </div>
-            <!-- <div *ngIf="portfolio.wip ">
-            <img src="assets/under-construction.svg " alt=" ">
-          </div> -->
-
           </div>
         </div>
       </div>
