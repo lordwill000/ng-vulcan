@@ -1,22 +1,27 @@
-<div *ngIf="hasLoaded; else loading">
+<div *ngIf="socialData?.length > 0; else loading">
   <app-menu></app-menu>
   <section class="contact-section">
-    <h1>get in touch.</h1>
-    <h3>Wanna collab on a project? Talk about something? Or just want to wave hello? Just fill up the form below or send an email
-      to
-      <span class="fancy">lordwill.mabalot@gmail.com</span>.
-    </h3>
-    <form>
-      <input type="text" class="name-input">
-      <textarea id="" cols="30" rows="10" class="msg-input"></textarea>
-      <button type="submit" class="btn-submit">Submit your message</button>
-    </form>
-    <div class="social-wrapper">
-      <h3>Let's get social</h3>
+    <div class="limit">
+      <h1>get in touch.</h1>
+      <h3 class="heading">Wanna collab on a project? Talk about something? Or just want to wave hello? Just fill up the form below or send an
+        email to
+        <a href="mailto:lordwill.mabalot@gmail.com" class="fancy">lordwill.mabalot@gmail.com</a>.
+      </h3>
+      <form class="email-form">
+        <input type="text" class="input-name" placeholder="Your name">
+        <textarea id="" cols="30" rows="3" class="input-msg" placeholder="Your message"></textarea>
+        <button type="submit" class="btn-submit">Submit your message</button>
+      </form>
+      <h3 class="social-label">Let's get social</h3>
+      <p class="social-intro">Follow or drop me a message in my social profiles below</p>
 
+      <div class="social-wrapper">
+        <a *ngFor="let social of socialData" href="{{social.link}}" target="_blank" class="social-btn {{social.contact_class}}">
+          <img src="{{social.about_url}}" alt="{{social.social}} logo">
+          <span>{{social.social}}</span>
+        </a>
+      </div>
     </div>
-
-
   </section>
 </div>
 <ng-template #loading>

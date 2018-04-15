@@ -3,28 +3,28 @@
     "id": 1,
     "social": "Facebook",
     "about_url": "assets/social-facebook.svg",
-    "contact_url": "assets/contact-facebook.svg",
+    "contact_class": "fb-icon",
     "link": "https://www.facebook.com/lordcndy000"
   },
   {
     "id": 2,
     "social": "Twitter",
     "about_url": "assets/social-twitter.svg",
-    "contact_url": "assets/contact-twitter.svg",
+    "contact_class": "twitter-icon",
     "link": "https://www.twitter.com/lordcndy000"
   },
   {
     "id": 3,
     "social": "LinkedIn",
     "about_url": "assets/social-linkedin.svg",
-    "contact_url": "assets/contact-linkedin.svg",
+    "contact_class": "linkedin-icon",
     "link": "https://www.facebook.com/lordcndy000"
   },
   {
     "id": 4,
     "social": "Github",
-    "about_url": "assets/contact-github.svg",
-    "contact_url": "assets/contact-github.svg",
+    "about_url": "assets/social-github.svg",
+    "contact_class": "github-icon",
     "link": "https://github.com/lordcndy000"
   }
 ]

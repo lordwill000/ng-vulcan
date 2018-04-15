@@ -13,10 +13,11 @@ $bg-color: #EA4961
 
 .portfolio-section
   background: $background
+  height: 100vh
   overflow-x: hidden
   .limit
     margin: 0 auto
-    max-width: 1100px
+    max-width: 900px
     padding: 80px 20px 30px
     & > h1
       animation: fade-in-bottom 0.3s ease-out forwards      
@@ -33,6 +34,7 @@ $bg-color: #EA4961
       font-family: $lato
       font-size: 1em
       font-weight: 300
+      letter-spacing: 1px
       line-height: 1.8em
       opacity: 0
       position: relative
@@ -147,23 +149,29 @@ $bg-color: #EA4961
                 color: $colorTextLt2        
                 display: inline-block
                 font-family: $dohyeon
-                font-size: 0.7em
+                font-size: 0.65em
                 letter-spacing: 1px
                 padding: 5px
                 margin-right: 5px
                 margin-top: 10px
                 text-transform: uppercase
             .view-btn
-              background: #717070
-              border-radius: 5px
-              color: $colorTextLt2        
+              background-color: transparent
+              border-radius: 3px
+              border: 1px solid $colorHead
+              color: $colorText
+              cursor: pointer
               display: inline-block
-              font-family: $dohyeon
+              font-family: $lato
               font-size: 0.8em
               letter-spacing: 1px
-              padding: 10px
-              margin-top: 15px
+              margin-top: 15px              
+              padding: 8px 10px
+              transition: all 0.3s ease-out              
               text-decoration: none
+              &:hover
+                background-color: $colorHead
+                color: $colorTextHover
             .wip-wrapper
               align-items: center   
               bottom: 25px                    

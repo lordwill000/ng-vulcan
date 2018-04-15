@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core'
+import { AppService } from '../../providers/app.service'
 
 @Component({
   selector: 'app-contact',
@@ -6,10 +7,17 @@ import { Component, OnInit } from '@angular/core'
   styleUrls: ['./contact.component.sass']
 })
 export class ContactComponent implements OnInit {
-  hasLoaded: boolean = false
-  constructor() {}
+  socialData: any
+
+  constructor(private appService: AppService) {}
 
   ngOnInit() {
-    this.hasLoaded = true
+    this.appService.fetchData('socials').subscribe(
+      data => {
+        this.socialData = data
+        console.log(this.socialData)
+      },
+      error => console.log(error)
+    )
   }
 }
