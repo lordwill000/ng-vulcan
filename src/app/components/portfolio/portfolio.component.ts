@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core'
+import { AppService } from '../../providers/app.service'
 
 @Component({
   selector: 'app-portfolio',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./portfolio.component.sass']
 })
 export class PortfolioComponent implements OnInit {
-
-  constructor() { }
+  portfolioData: any
+  constructor(private appService: AppService) {}
 
   ngOnInit() {
+    this.appService.fetchPortfolio().subscribe(data => {
+      this.portfolioData = data
+      console.log(this.portfolioData)
+    })
   }
-
 }

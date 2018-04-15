@@ -1,2 +1,32 @@
 <app-menu></app-menu>
-<section class="portfolio-section"></section>
+<section class="portfolio-section">
+  <div class="limit">
+    <h2>my works</h2>
+    <h3 class="head">I've developed Wordpress sites mostly, but I'm also capable of developing web apps using React and Angular</h3>
+    <p class="disclaimer">
+      *Some websites presented in this portfolio are not my own but owned by the company and/or the client indicated, however I
+      alone or involved (in a team) in development. </p>
+    <div class="portfolio-wrapper">
+      <div class="porfolio-single" *ngFor="let portfolio of portfolioData">
+        <div class="proj-name-wrapper">
+          <div class="fancy-btns">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <p class="project-name">{{portfolio.project_name}}</p>
+        </div>
+        <img src="{{portfolio.thumb}}" class="thumb">
+        <div class="thumb-overlay-wrapper" style="background-image: url({{portfolio.thumb_overlay}})">
+          <div *ngIf="portfolio.wip">
+            <img src="assets/under-construction.svg" alt="">
+          </div>
+          <div class="tags-wrapper">
+            <span class="tag" *ngFor="let tag of portfolio.tags">{{tag}}</span>
+          </div>
+          <a href="{{portfolio.url}}">View site</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

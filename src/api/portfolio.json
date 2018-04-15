@@ -3,10 +3,10 @@
     "id": 1,
     "company": "Dottystyle Creative",
     "client": "The Brand Pool",
-    "project-name": "The Brand Pool Website",
+    "project_name": "The Brand Pool Website",
     "tags": ["wordpress", "animations", "blog"],
-    "thumb": "./assets/portfolio-thumb/tbp-thumb.jpg",
-    "thumb-overlay": "./assets/portfolio-thumb/tbp-thumb-overlay.jpg",
+    "thumb": "assets/portfolio-thumb/tbp-thumb.jpg",
+    "thumb-overlay": "assets/portfolio-thumb/tbp-thumb-overlay.jpg",
     "url": "https://thebrandpool.com.au/",
     "wip": false
   },
@@ -16,8 +16,8 @@
     "client": "The Brand Pool",
     "project_name": "Soil CRC",
     "tags": ["wordpress", "animations", "blog"],
-    "thumb": "./assets/portfolio-thumb/soil-thumb.jpg",
-    "thumb-overlay": "./assets/portfolio-thumb/soil-thumb-overlay.jpg",
+    "thumb": "assets/portfolio-thumb/soil-thumb.jpg",
+    "thumb-overlay": "assets/portfolio-thumb/soil-thumb-overlay.jpg",
     "url": "http://www.soilcrc.com.au/",
     "wip": false
   },
@@ -34,8 +34,8 @@
       "animations",
       "front-end"
     ],
-    "thumb": "./assets/portfolio-thumb/sbp-thumb.jpg",
-    "thumb-overlay": "./assets/portfolio-thumb/sbp-overlay.jpg",
+    "thumb": "assets/portfolio-thumb/sbp-thumb.jpg",
+    "thumb-overlay": "assets/portfolio-thumb/sbp-overlay.jpg",
     "url": "http://economist-sbp.dottylabs.com/",
     "wip": true
   },
@@ -45,8 +45,8 @@
     "client": "The Economist",
     "project_name": "Japan Cabinet Hub",
     "tags": ["wordpress", "blog", "hub"],
-    "thumb": "./assets/portfolio-thumb/jph-thumb.jpg",
-    "thumb-overlay": "./assets/portfolio-thumb/jph-thumb-overlay.jpg",
+    "thumb": "assets/portfolio-thumb/jph-thumb.jpg",
+    "thumb-overlay": "assets/portfolio-thumb/jph-thumb-overlay.jpg",
     "url": "http://economist-japan-cabinet-hub.dottylabs.com/",
     "wip": true
   },
@@ -56,8 +56,8 @@
     "client": "Sponge Agency",
     "project_name": "Apra Graduates Career",
     "tags": ["wordpress", "animations"],
-    "thumb": "./assets/portfolio-thumb/apra-thumb.jpg",
-    "thumb-overlay": "./assets/portfolio-thumb/apra-thumb-overlay.jpg",
+    "thumb": "assets/portfolio-thumb/apra-thumb.jpg",
+    "thumb-overlay": "assets/portfolio-thumb/apra-thumb-overlay.jpg",
     "url": "http://apragraduatecareers.com.au/",
     "wip": false
   },
@@ -67,10 +67,10 @@
     "client": "The Economist",
     "project_name": "Economist Marketing Site Japan",
     "tags": ["wordpress", "svg", "animations", "multi-language", "multi-site"],
-    "thumb": "./assets/portfolio-thumb/ems-thumb.jpg",
-    "thumb-overlay": "./assets/portfolio-thumb/ems-thumb-overlay.jpg",
+    "thumb": "assets/portfolio-thumb/ems-thumb.jpg",
+    "thumb-overlay": "assets/portfolio-thumb/ems-thumb-overlay.jpg",
     "url": "http://en.economistgroup.jp/",
-    "wip": false
+    "wip": true
   },
   {
     "id": 7,
@@ -78,8 +78,8 @@
     "client": "The Economist",
     "project_name": "Telstra",
     "tags": ["wordpress", "animations", "hub"],
-    "thumb": "./assets/portfolio-thumb/telstra-thumb.jpg",
-    "thumb-overlay": "./assets/portfolio-thumb/telstra-thumb-overlay.jpg",
+    "thumb": "assets/portfolio-thumb/telstra-thumb.jpg",
+    "thumb-overlay": "assets/portfolio-thumb/telstra-thumb-overlay.jpg",
     "url": "http://connectedfuture.economist.com/",
     "wip": false
   },
@@ -89,8 +89,8 @@
     "client": "",
     "project_name": "Cronus",
     "tags": ["angular 4", "firebase", "firestore", "webapp", "material"],
-    "thumb": "./assets/portfolio-thumb/cronus-thumb.jpg",
-    "thumb-overlay": "./assets/portfolio-thumb/cronus-thumb-overlay.jpg",
+    "thumb": "assets/portfolio-thumb/cronus-thumb.jpg",
+    "thumb-overlay": "assets/portfolio-thumb/cronus-thumb-overlay.jpg",
     "url": "https://cronus-c5548.firebaseapp.com//",
     "wip": true
   }

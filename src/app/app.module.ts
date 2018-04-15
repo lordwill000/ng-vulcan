@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core'
 import { RouterModule, Routes } from '@angular/router'
 import { ParticlesModule } from 'angular-particle'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
-
+import { HttpClientModule, HttpClient } from '@angular/common/http'
 import { AppComponent } from './app.component'
 import { AboutComponent } from './components/about/about.component'
 import { PortfolioComponent } from './components/portfolio/portfolio.component'
@@ -41,7 +41,8 @@ const routes: Routes = [
     BrowserModule,
     RouterModule.forRoot(routes),
     ParticlesModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [AppService],
   bootstrap: [AppComponent]
