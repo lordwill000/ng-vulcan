@@ -14,10 +14,14 @@ $linkedin: #007AB9
 $github: #464646
 $twitter: #03A9F4
 
+
+$medium: 991.98px
+$small: 767.98px
+$xsmall: 575.98px
+$iphone: 375.98px
   
 .contact-section
   background: $background
-  height: 100vh
   overflow-x: hidden
   .limit
     margin: 0 auto
@@ -207,7 +211,24 @@ $twitter: #03A9F4
       border-radius: 50%
       animation: ball 4s infinite
 
-  
+@media (max-width: $small)
+  .contact-section
+    .limit
+      max-width: 700px
+      
+@media (max-width: $xsmall)
+  .contact-section
+    .limit
+      max-width: 515px
+
+@media (max-width: $iphone)
+  .contact-section
+    .limit
+     & > .social-wrapper
+       flex-wrap: wrap
+       & > .social-btn
+         margin-top: 1em
+
 @keyframes fade-in-bottom
   from
     bottom: -10px    
