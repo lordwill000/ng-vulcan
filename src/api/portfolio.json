@@ -43,7 +43,7 @@
     "thumb": "assets/portfolio-thumb/sbp-thumb.jpg",
     "thumb_overlay": "assets/portfolio-thumb/sbp-thumb-overlay.jpg",
     "url": "http://economist-sbp.dottylabs.com/",
-    "wip": true
+    "wip": false
   },
   {
     "id": 4,
@@ -55,7 +55,7 @@
     "thumb": "assets/portfolio-thumb/jph-thumb.jpg",
     "thumb_overlay": "assets/portfolio-thumb/jph-thumb-overlay.jpg",
     "url": "http://economist-japan-cabinet-hub.dottylabs.com/",
-    "wip": true
+    "wip": false
   },
   {
     "id": 5,
@@ -69,19 +69,6 @@
     "thumb_overlay": "assets/portfolio-thumb/apra-thumb-overlay.jpg",
     "url": "http://apragraduatecareers.com.au/",
     "wip": false
-  },
-  {
-    "id": 6,
-    "company": "Dottystyle Creative",
-    "client": "The Economist",
-    "description":
-      "A multi-site and multi-language site built using Wordpress. Features English and Japanese language.",
-    "project_name": "Economist Marketing Site Japan",
-    "tags": ["wordpress", "svg", "animations", "multi-language", "multi-site"],
-    "thumb": "assets/portfolio-thumb/ems-thumb.jpg",
-    "thumb_overlay": "assets/portfolio-thumb/ems-thumb-overlay.jpg",
-    "url": "http://en.economistgroup.jp/",
-    "wip": true
   },
   {
     "id": 7,
