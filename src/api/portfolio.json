@@ -54,7 +54,7 @@
     "tags": ["wordpress", "blog", "hub"],
     "thumb": "assets/portfolio-thumb/jph-thumb.jpg",
     "thumb_overlay": "assets/portfolio-thumb/jph-thumb-overlay.jpg",
-    "url": "http://economist-japan-cabinet-hub.dottylabs.com/",
+    "url": "http://investinjapan.economist.com/",
     "wip": false
   },
   {
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "company": "Personal",
-    "client": "Me, myself, and I",
+    "client": "Me",
     "description":
       "An Angular-Firebase dashboard app that I'm building during my free time. The purpose of this is like a to-do app but with additional features like, emailing, weather reporter, and etc.",
     "project_name": "Cronus",
