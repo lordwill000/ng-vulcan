@@ -63,6 +63,7 @@ $iphone: 375.98px
         border-bottom-left-radius: 5px
         border-bottom-right-radius: 5px
         margin-bottom: 20px
+        height: 250px;
         overflow: hidden
         opacity: 0
         position: relative
@@ -115,7 +116,9 @@ $iphone: 375.98px
             width: 100%
         .thumb
           display: block
+          height: 100%
           max-width: 100%
+          object-fit: cover
         .thumb-overlay-wrapper
           align-items: center          
           border-radius: 5px
@@ -260,7 +263,10 @@ $iphone: 375.98px
       max-width: 700px
       & > .portfolio-wrapper
         .portfolio-single
+          height: auto
           width: 100%
+          .thumb
+            height: auto
           .thumb-overlay-wrapper
             .thumb-overlay
               &>p
