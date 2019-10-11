@@ -1,24 +1,10 @@
 [
   {
-    "id": 1,
-    "social": "Facebook",
-    "about_url": "assets/social-facebook.svg",
-    "contact_class": "fb-icon",
-    "link": "https://www.facebook.com/lordcndy000"
-  },
-  {
-    "id": 2,
-    "social": "Twitter",
-    "about_url": "assets/social-twitter.svg",
-    "contact_class": "twitter-icon",
-    "link": "https://www.twitter.com/lordcndy000"
-  },
-  {
     "id": 3,
     "social": "LinkedIn",
     "about_url": "assets/social-linkedin.svg",
     "contact_class": "linkedin-icon",
-    "link": "https://www.facebook.com/lordcndy000"
+    "link": "https://www.linkedin.com/in/lordwillm/"
   },
   {
     "id": 4,

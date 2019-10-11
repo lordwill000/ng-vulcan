@@ -141,7 +141,6 @@ export class AboutComponent implements OnInit {
     this.appService.fetchData('socials').subscribe(
       data => {
         this.socialData = data
-        console.log(this.socialData)
       },
       error => console.log(error)
     )

@@ -95,5 +95,70 @@
     "thumb_overlay": "assets/portfolio-thumb/cronus-thumb-overlay.jpg",
     "url": "https://cronus-c5548.firebaseapp.com//",
     "wip": true
+  },
+  {
+    "id": 9,
+    "company": "Oqulo",
+    "client": "Oqulo",
+    "description":
+      "A directory of coworking spaces in the Philippines with Google Maps integration. Made with Nuxt and Laravel.",
+    "project_name": "CoworkPH",
+    "tags": ["nuxt", "laravel", "google-maps"],
+    "thumb": "assets/portfolio-thumb/cowork-ph.jpg",
+    "thumb_overlay": "assets/portfolio-thumb/cowork-ph-overlay.jpg",
+    "url": "https://cowork.ph/",
+    "wip": false
+  },
+  {
+    "id": 10,
+    "company": "August99",
+    "client": "LOFT",
+    "description":
+      "The marketing site of LOFT --- a coworking space based in Ortigas. Made with pug and vanilla Javascript with Formstack api integration.",
+    "project_name": "LOFT Website",
+    "tags": ["pug", "javascript", "formstack"],
+    "thumb": "assets/portfolio-thumb/loft.jpg",
+    "thumb_overlay": "assets/portfolio-thumb/loft-overlay.jpg",
+    "url": "https://loft.ph/",
+    "wip": false
+  },
+  {
+    "id": 11,
+    "company": "Oqulo",
+    "client": "Oqulo",
+    "description":
+      "Landing page for QSpaceapp. Made with Wordpress with Mailchimp api and Formstack api integration",
+    "project_name": "QSpace Landing Page",
+    "tags": ["pug", "javascript", "formstack"],
+    "thumb": "assets/portfolio-thumb/qspace-landing-page.jpg",
+    "thumb_overlay": "assets/portfolio-thumb/qspace-landing-overlay.jpg",
+    "url": "https://loft.ph/",
+    "wip": false
+  },
+  {
+    "id": 12,
+    "company": "Oqulo",
+    "client": "LOFT",
+    "description":
+      "A coworking system for booking a space, events, virtual address, etc. Made with VueJS, Postgres, Node, and Express",
+    "project_name": "QSpaceapp",
+    "tags": ["vue", "postgres", "node", "express", "system", "webapp"],
+    "thumb": "assets/portfolio-thumb/qspaceapp.jpg",
+    "thumb_overlay": "assets/portfolio-thumb/qspaceapp-overlay.jpg",
+    "url": "https://loft.ph/",
+    "wip": false
+  },
+  {
+    "id": 13,
+    "company": "Oqulo",
+    "client": "Oqulo",
+    "description":
+      "A real estate listings website and leads system. Made with Laravel and vanilla Javascript",
+    "project_name": "RealPH",
+    "tags": ["laravel", "listings", "javascript", "webapp", "lead", "system"],
+    "thumb": "assets/portfolio-thumb/real.jpg",
+    "thumb_overlay": "assets/portfolio-thumb/real-overlay.jpg",
+    "url": "https://loft.ph/",
+    "wip": false
   }
 ]
